@@ -1,4 +1,4 @@
-# 𝓝𝓸𝓽 𝓗𝓮𝓼𝓪𝓹𝓵𝓪𝓶𝓪
+# Not Hesaplama
 ## [İndirme Linki](https://raw.githubusercontent.com/omerdynasty/not-hesaplama/refs/heads/main/Excel%20Dosyalar%C4%B1/not%20hesaplama.xlsm)
 
 ### [VirusTotal](https://www.virustotal.com/gui/file/34067ca54d87b47033d05c55667617567276b66f6e1576abf29ea06279a77014)
@@ -98,7 +98,5 @@ Columns("B:C").ClearContents
 | 60        | 100       |
 
 Eğer **"Temizle"** makrosunu çalıştırırsanız, B ve C sütunları tamamen boş olur.
-
-𝔸ş𝕜 𝕚𝕝𝕖 𝕪𝕒𝕡ı𝕝𝕕ı 𝕧𝕖 𝕥𝕒𝕓𝕚𝕚 𝕜𝕚 𝔾ℙ𝕃 𝕧𝟛 𝕚𝕝𝕖 𝕝𝕚𝕤𝕒𝕟𝕤𝕝𝕒𝕟𝕕ı :
 
 [^1]: Excel, Microsoft Corporation'ın tescilli bir markasıdır.
