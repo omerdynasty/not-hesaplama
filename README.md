@@ -7,6 +7,10 @@
 ![image](https://github.com/user-attachments/assets/9b118962-ea5f-4d33-ac72-a533ac49e403)
 ![image](https://github.com/user-attachments/assets/14bdd7a9-85a4-442a-818f-d933b8c38ece)
 
+**Talimatlar**
+![image](https://github.com/user-attachments/assets/8de5ccbf-95c6-4d6b-b2da-b35bf508ad26)
+
+
 
 
 **Excel[^1] dosyasının içindeki yönergeleri okumayı unutmayın**
