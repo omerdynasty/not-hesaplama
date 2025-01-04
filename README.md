@@ -1,5 +1,5 @@
 # Not Hesaplama
-
+[İndirme Linki](https://www.genome.gov/)
 ---
 
 ### **1. Sub Hesapla()**
