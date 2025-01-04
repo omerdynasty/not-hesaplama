@@ -3,6 +3,7 @@
 
 ### [VirusTotal](https://www.virustotal.com/gui/file/34067ca54d87b47033d05c55667617567276b66f6e1576abf29ea06279a77014)
 ---
+**Excel'in içindeki yönergeleri okumayı unutmayın**
 
 ### **1. Sub Hesapla()**
 Bu alt prosedür, sütun B'deki sayısal değerleri alır ve her birini bir formüle göre hesaplayarak sütun C'ye yazar.
@@ -97,3 +98,5 @@ Columns("B:C").ClearContents
 | 60        | 100       |
 
 Eğer **"Temizle"** makrosunu çalıştırırsanız, B ve C sütunları tamamen boş olur.
+
+[^1] Excel, Microsoft Corporation'ın tescilli bir markasıdır.
