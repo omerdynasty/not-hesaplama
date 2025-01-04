@@ -1,7 +1,7 @@
 # Not Hesaplama
-[İndirme Linki](https://raw.githubusercontent.com/omerdynasty/not-hesaplama/refs/heads/main/Excel%20Dosyalar%C4%B1/not%20hesaplama.xlsm)
+### [İndirme Linki](https://raw.githubusercontent.com/omerdynasty/not-hesaplama/refs/heads/main/Excel%20Dosyalar%C4%B1/not%20hesaplama.xlsm)
 
-[VirusTotal](https://www.virustotal.com/gui/file/34067ca54d87b47033d05c55667617567276b66f6e1576abf29ea06279a77014)
+### [VirusTotal](https://www.virustotal.com/gui/file/34067ca54d87b47033d05c55667617567276b66f6e1576abf29ea06279a77014)
 ---
 
 ### **1. Sub Hesapla()**
