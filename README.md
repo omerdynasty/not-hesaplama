@@ -1,4 +1,4 @@
-# Not Hesaplama
+# 𝓝𝓸𝓽 𝓗𝓮𝓼𝓪𝓹𝓵𝓪𝓶𝓪
 ## [İndirme Linki](https://raw.githubusercontent.com/omerdynasty/not-hesaplama/refs/heads/main/Excel%20Dosyalar%C4%B1/not%20hesaplama.xlsm)
 
 ### [VirusTotal](https://www.virustotal.com/gui/file/34067ca54d87b47033d05c55667617567276b66f6e1576abf29ea06279a77014)
@@ -9,7 +9,7 @@
 Bu alt prosedür, sütun B'deki sayısal değerleri alır ve her birini bir formüle göre hesaplayarak sütun C'ye yazar.
 
 #### Kodun Parçalarına Ayrılması:
-```vba[^2]
+```vba
 Dim i As Long
 Dim sonSatir As Long
 ```
@@ -18,7 +18,7 @@ Dim sonSatir As Long
 
 ---
 
-```vba[^2]
+```vba
 sonSatir = Cells(Rows.Count, 2).End(xlUp).Row
 ```
 - **Amacı:** Sütun B'nin son dolu satırını bulur.
@@ -33,14 +33,14 @@ sonSatir = Cells(Rows.Count, 2).End(xlUp).Row
 
 ---
 
-```vba[^2]
+```vba
 For i = 1 To sonSatir
 ```
 - Bu döngü, 1'den `sonSatir` değişkenine kadar her bir satır için işlem yapar. Yani sütun B'deki tüm dolu hücreler üzerinde işlem gerçekleştirilir.
 
 ---
 
-```vba[^2]
+```vba
 If IsNumeric(Cells(i, 2).Value) Then
 ```
 - **Amacı:** Sütun B'deki hücrenin içeriğinin sayısal bir değer olup olmadığını kontrol eder.
@@ -48,7 +48,7 @@ If IsNumeric(Cells(i, 2).Value) Then
 
 ---
 
-```vba[^2]
+```vba
 Cells(i, 3).Value = Application.WorksheetFunction.Round((Cells(i, 2).Value * 100) / 60, 0)
 ```
 - **Hesaplama:**
@@ -59,7 +59,7 @@ Cells(i, 3).Value = Application.WorksheetFunction.Round((Cells(i, 2).Value * 100
 
 ---
 
-```vba[^2]
+```vba
 Next i
 ```
 - Döngüyü bir sonraki satıra geçirir. İşlem `sonSatir` değerine ulaşana kadar devam eder.
@@ -70,7 +70,7 @@ Next i
 Bu alt prosedür, sütun B ve C'deki tüm verileri temizler.
 
 #### Kodun Parçalarına Ayrılması:
-```vba[^2]
+```vba
 Columns("B:C").ClearContents
 ```
 - **`Columns("B:C")`**: Sütun B ve C'yi seçer.
@@ -99,5 +99,6 @@ Columns("B:C").ClearContents
 
 Eğer **"Temizle"** makrosunu çalıştırırsanız, B ve C sütunları tamamen boş olur.
 
+𝔸ş𝕜 𝕚𝕝𝕖 𝕪𝕒𝕡ı𝕝𝕕ı 𝕧𝕖 𝕥𝕒𝕓𝕚𝕚 𝕜𝕚 𝔾ℙ𝕃 𝕧𝟛 𝕚𝕝𝕖 𝕝𝕚𝕤𝕒𝕟𝕤𝕝𝕒𝕟𝕕ı :
+
 [^1]: Excel, Microsoft Corporation'ın tescilli bir markasıdır.
-[^2]:VBA (Visual Basic for Applications) is a proprietary programming language developed by Microsoft Corporation.
