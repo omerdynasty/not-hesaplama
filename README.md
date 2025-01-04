@@ -2,8 +2,10 @@
 ## [İndirme Linki](https://raw.githubusercontent.com/omerdynasty/not-hesaplama/refs/heads/main/Excel%20Dosyalar%C4%B1/not%20hesaplama.xlsm)
 
 ### [VirusTotal](https://www.virustotal.com/gui/file/34067ca54d87b47033d05c55667617567276b66f6e1576abf29ea06279a77014)
+
+**Excel[^1] dosyasının içindeki yönergeleri okumayı unutmayın**
 ---
-**Excel[^1]'in içindeki yönergeleri okumayı unutmayın**
+
 
 ### **1. Sub Hesapla()**
 Bu alt prosedür, sütun B'deki sayısal değerleri alır ve her birini bir formüle göre hesaplayarak sütun C'ye yazar.
