@@ -1,5 +1,5 @@
 # Not Hesaplama
-[İndirme Linki](https://www.genome.gov/)
+[İndirme Linki]([https://www.genome.gov/](https://raw.githubusercontent.com/omerdynasty/not-hesaplama/refs/heads/main/Excel%20Dosyalar%C4%B1/not%20hesaplama.xlsm))
 ---
 
 ### **1. Sub Hesapla()**
