@@ -3,12 +3,12 @@
 
 ### [VirusTotal](https://www.virustotal.com/gui/file/34067ca54d87b47033d05c55667617567276b66f6e1576abf29ea06279a77014)
 
-**AŞAĞIDAKİ UYARILARI ONAYLAMADAN MAKRO ÇALIŞMAYACAKTIR!**
+### **AŞAĞIDAKİ UYARILARI ONAYLAMADAN MAKRO ÇALIŞMAYACAKTIR!**
 
 ![image](https://github.com/user-attachments/assets/9b118962-ea5f-4d33-ac72-a533ac49e403)
 ![image](https://github.com/user-attachments/assets/14bdd7a9-85a4-442a-818f-d933b8c38ece)
 
-**Talimatlar**
+### **Talimatlar**
 
 ![image](https://github.com/user-attachments/assets/8de5ccbf-95c6-4d6b-b2da-b35bf508ad26)
 
