@@ -95,5 +95,3 @@ Columns("B:C").ClearContents
 | 60        | 100       |
 
 Eğer **"Temizle"** makrosunu çalıştırırsanız, B ve C sütunları tamamen boş olur.
-
-Bu kodda başka bir detay istiyorsan veya bir noktayı genişletmemi istersen, söyleyebilirsin! 😊
