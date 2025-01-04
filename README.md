@@ -3,13 +3,13 @@
 
 ### [VirusTotal](https://www.virustotal.com/gui/file/34067ca54d87b47033d05c55667617567276b66f6e1576abf29ea06279a77014)
 ---
-**Excel'in içindeki yönergeleri okumayı unutmayın**
+**Excel[^1]'in içindeki yönergeleri okumayı unutmayın**
 
 ### **1. Sub Hesapla()**
 Bu alt prosedür, sütun B'deki sayısal değerleri alır ve her birini bir formüle göre hesaplayarak sütun C'ye yazar.
 
 #### Kodun Parçalarına Ayrılması:
-```vba
+```vba[^2]
 Dim i As Long
 Dim sonSatir As Long
 ```
@@ -18,12 +18,12 @@ Dim sonSatir As Long
 
 ---
 
-```vba
+```vba[^2]
 sonSatir = Cells(Rows.Count, 2).End(xlUp).Row
 ```
 - **Amacı:** Sütun B'nin son dolu satırını bulur.
 - **Nasıl Çalışır?**
-  1. `Rows.Count`: Çalışma sayfasındaki toplam satır sayısını alır (örneğin, Excel 2019'da bu 1,048,576'dır).
+  1. `Rows.Count`: Çalışma sayfasındaki toplam satır sayısını alır (örneğin, Excel 2019[^1]'da bu 1,048,576'dır).
   2. `Cells(Rows.Count, 2)`: Sütun B'nin en alt hücresini seçer.
   3. `.End(xlUp)`: Bu hücreden yukarı doğru dolu olan ilk hücreye gider.
   4. `.Row`: Bulunan hücrenin satır numarasını alır ve `sonSatir` değişkenine atar.
@@ -33,14 +33,14 @@ sonSatir = Cells(Rows.Count, 2).End(xlUp).Row
 
 ---
 
-```vba
+```vba[^2]
 For i = 1 To sonSatir
 ```
 - Bu döngü, 1'den `sonSatir` değişkenine kadar her bir satır için işlem yapar. Yani sütun B'deki tüm dolu hücreler üzerinde işlem gerçekleştirilir.
 
 ---
 
-```vba
+```vba[^2]
 If IsNumeric(Cells(i, 2).Value) Then
 ```
 - **Amacı:** Sütun B'deki hücrenin içeriğinin sayısal bir değer olup olmadığını kontrol eder.
@@ -48,7 +48,7 @@ If IsNumeric(Cells(i, 2).Value) Then
 
 ---
 
-```vba
+```vba[^2]
 Cells(i, 3).Value = Application.WorksheetFunction.Round((Cells(i, 2).Value * 100) / 60, 0)
 ```
 - **Hesaplama:**
@@ -59,7 +59,7 @@ Cells(i, 3).Value = Application.WorksheetFunction.Round((Cells(i, 2).Value * 100
 
 ---
 
-```vba
+```vba[^2]
 Next i
 ```
 - Döngüyü bir sonraki satıra geçirir. İşlem `sonSatir` değerine ulaşana kadar devam eder.
@@ -70,7 +70,7 @@ Next i
 Bu alt prosedür, sütun B ve C'deki tüm verileri temizler.
 
 #### Kodun Parçalarına Ayrılması:
-```vba
+```vba[^2]
 Columns("B:C").ClearContents
 ```
 - **`Columns("B:C")`**: Sütun B ve C'yi seçer.
@@ -99,4 +99,5 @@ Columns("B:C").ClearContents
 
 Eğer **"Temizle"** makrosunu çalıştırırsanız, B ve C sütunları tamamen boş olur.
 
-[^1] Excel, Microsoft Corporation'ın tescilli bir markasıdır.
+[^1]: Excel, Microsoft Corporation'ın tescilli bir markasıdır.
+[^2]:VBA (Visual Basic for Applications) is a proprietary programming language developed by Microsoft Corporation.
